@@ -38,7 +38,28 @@
 
 10. **Merge pull request #4 from bruuna-brasil/feature/readme**
    - **Propósito:** Fusão de um pull request que incluiu mudanças no readme relacionadas à adição de um arquivo descritivo.
-    
+
+11. **Atualização do redme na branch errada**
+   - **Propósito:** Esta atualização foi feita no arquivo `readme.md`, mas na branch incorreta, o que foi proposital para demonstração.
+
+12. **Adicionar um arquivo descritivo readme.md**
+   - **Propósito:** Este commit adiciona um arquivo `readme.md` ao projeto.
+
+13. **Merge branch 'develop' into feature/readme**
+   - **Propósito:** Fusão de alterações da branch de desenvolvimento para a branch `feature/readme`, adicionando as mudanças no readme na develop.
+
+14. **Merge pull request #4 from bruuna-brasil/feature/readme**
+   - **Propósito:** Fusão de um pull request que incluiu mudanças relacionadas à adição do arquivo `readme.md`.
+
+15. **Criação de conflito proposital**
+   - **Propósito:** Este commit foi feito intencionalmente para criar um conflito durante o processo de fusão de branches. Feito para testar a resolução de conflitos e para demonstrar como lidar com eles.
+
+16. **Merge branch 'main' into develop**
+   - **Propósito:** Fusão de alterações da branch principal (`main`) para a branch de desenvolvimento (`develop`), integrando possíveis correções e atualizações antes de prosseguir com o desenvolvimento.
+
+17. **Merge pull request #5 from bruuna-brasil/develop**
+   - **Propósito:** Fusão de um pull request que incluiu mudanças relacionadas à branch de desenvolvimento (`develop`).
+
 ### Develop
 ####
 
