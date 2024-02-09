@@ -1,4 +1,4 @@
-# Obter Mais Fichas
+# Fichas de Tarefas
 
 ## Ideia:
 
@@ -101,3 +101,4 @@
 ## Referências:
 
 ### https://github.com/john-smilga/javascript-basic-projects/blob/master/02-counter/final/index.html
+
