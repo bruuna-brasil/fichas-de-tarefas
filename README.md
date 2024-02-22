@@ -1,10 +1,42 @@
+
+
+<table>
+<tr>
+<Table>
+  <tr>
+    <td>
+      <a href= "https://www.inteli.edu.br/"><img src="imagens/logo-inteli.png" alt="Inteli - Instituto de Tecnologia e Liderança" border="0"></a>
+    </td>
+  </tr>
+</table>
+
 # Fichas de Tarefas
 
-## Ideia:
+## Integrantes:
+
+- <a href="https://www.linkedin.com/in/bruna-brasil-alexandre/">Bruna Brasil</a>
+
+## Sumário
+
+- [1. Introdução](#introducao)
+- [2. Objetivos ](#objetivos)
+- [2. Propósitos dos commits](#proposito-commits)
+- [4. Materiais ](#materiais)
+- [4. Método ](#metodo)
+- [6. Resultados](#resultado)
+- [7. Conclusão](#conclusao)
+- [8. Referências](#referencias)
+
+ Introdução, Objetivo, Materiais, Método, Resultados e Conclusão.
+
+## 1. Introdução
+<conteúdo>
+
+## 2. Ideia
 
 #### Essa aplicação foi pensada para ser uma página web com botões para adicionar mais fichas, remover fichas ou reiniciar, porém o comportamento dos botões é manipulado para que o número de fichas apenas aumente.
 
-## Propósitos dos commits:
+## 3. Propósitos dos commits
 
 ### Main
 ####
@@ -119,7 +151,16 @@
 1. **Adiciona a lógica para o funcionamento da página**
    - **Propósito:** Este commit adiciona a lógica para o funcionamento da página. Inclui funcionalidades dos botões para modificar o valor da quantidade de fichas e alterar a cor do fundo do site.
 
-## Referências:
+## 4. Materiais
+<conteúdo>
+## 5. Método
+<conteúdo>
+## 6. Resultados
+<conteúdo>
+## 7. Conclusão
+<conteúdo>
+
+## 8. Referências
 
 ### https://github.com/john-smilga/javascript-basic-projects/blob/master/02-counter/final/index.html
 
