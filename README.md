@@ -181,6 +181,8 @@ Para realizar o levantamento da API, foram necessários diversos passos. Abaixo,
 
 Ao acessar o console da AWS, selecionamos a opção "Criar Máquina Virtual com EC2". Isso nos levou à tela inicial do processo de criação da instância.
 
+<p align="center"> Figura 1: Criar Instância EC2 </p>
+
 ![Figura 1: Criar Instância EC2](imagens/launch_instance.png)
 
 <p align="center"> Elaboração Bruna Brasil </p>
@@ -188,6 +190,8 @@ Ao acessar o console da AWS, selecionamos a opção "Criar Máquina Virtual com 
 ### 2. Nomear a Instância
 
 Após selecionar a opção "Criar Máquina Virtual com EC2", foi solicitado que nomeássemos a instância. Optamos por nomeá-la como "Minha ponderada semana 03".
+
+<p align="center"> Figura 2: Nomear a Instância </p>
 
 ![Figura 2: Nomear a Instância](imagens/nome_instancia.png)
 
@@ -197,6 +201,8 @@ Após selecionar a opção "Criar Máquina Virtual com EC2", foi solicitado que 
 
 Escolhemos o sistema operacional Ubuntu devido à sua versatilidade e facilidade de uso.
 
+<p align="center"> Figura 3: Selecionar o Sistema Operacional </p>
+
 ![Figura 3: Selecionar o Sistema Operacional](imagens/sistema_nuvem.png)
 
 <p align="center"> Elaboração Bruna Brasil </p>
@@ -204,6 +210,8 @@ Escolhemos o sistema operacional Ubuntu devido à sua versatilidade e facilidade
 ### 4. Criar Chave SSH
 
 Foi necessário criar uma chave privada SSH para garantir a segurança do acesso ao projeto.
+
+<p align="center"> Figura 4: Criar Chave SSH </p>
 
 ![Figura 4: Criar Chave SSH](imagens/criar_chave.png)
 
@@ -213,6 +221,8 @@ Foi necessário criar uma chave privada SSH para garantir a segurança do acesso
 
 Selecionamos as permissões para SSH, HTTPS e HTTP para permitir o acesso por esses meios.
 
+<p align="center"> Figura 5: Criar Grupo de Segurança </p>
+
 ![Figura 5: Criar Grupo de Segurança](imagens/criar_segurança.png)
 
 <p align="center"> Elaboração Bruna Brasil </p>
@@ -220,6 +230,9 @@ Selecionamos as permissões para SSH, HTTPS e HTTP para permitir o acesso por es
 ### 6. Tela de Carregamento da Instância
 
 Após clicar em "Executar Instância", foi exibida uma tela de carregamento enquanto a instância era inicializada.
+
+
+<p align="center"> Figura 6: Tela de Carregamento da Instância </p>
 
 ![Figura 6: Tela de Carregamento da Instância](imagens/carregando_instancia.png)
 
@@ -229,6 +242,8 @@ Após clicar em "Executar Instância", foi exibida uma tela de carregamento enqu
 
 A instância foi criada com sucesso e estava pronta para ser utilizada.
 
+<p align="center"> Figura 7: Instância Criada com Sucesso </p>
+
 ![Figura 7: Instância Criada com Sucesso](imagens/carregada_instancia.png)
 
 <p align="center"> Elaboração Bruna Brasil </p>
@@ -236,6 +251,8 @@ A instância foi criada com sucesso e estava pronta para ser utilizada.
 ### 8. Detalhes da Instância
 
 Visualizamos os detalhes da instância, incluindo seu ID, endereço IP público e privado.
+
+<p align="center"> Figura 8: Detalhes da Instância </p>
 
 ![Figura 8: Detalhes da Instância](imagens/instancia_executando.png)
 
@@ -245,6 +262,8 @@ Visualizamos os detalhes da instância, incluindo seu ID, endereço IP público 
 
 Utilizamos o cliente SSH para acessar localmente nossa instância.
 
+<p align="center"> Figura 9: Acesso ao Servidor via Terminal </p>
+
 ![Figura 9: Acesso ao Servidor via Terminal](imagens/cliente_ssh.png)
 
 <p align="center"> Elaboração Bruna Brasil </p>
@@ -252,6 +271,8 @@ Utilizamos o cliente SSH para acessar localmente nossa instância.
 ### 10. Confirmação de Entrada no Servidor
 
 Confirmamos a entrada no servidor via terminal, onde pudemos iniciar o uso do sistema operacional da máquina virtual para outras finalidades, como conectar-se ao repositório do GitHub e construir nossa API.
+
+<p align="center"> Figura 10: Confirmação de Entrada no Servidor </p>
 
 ![Figura 10: Confirmação de Entrada no Servidor](imagens/confirmacao_entrada_servidor.png)
 
@@ -264,6 +285,8 @@ Dessa maneira, concluímos o processo de criação e configuração da instânci
 
 Após a criação da instância EC2, foi necessário configurar a segurança da chave SSH para garantir acesso seguro à instância. Isso incluiu desabilitar a herança e aplicar as permissões adequadas à chave SSH.
 
+<p align="center"> Figura 12: Configurar Segurança da Chave SSHl </p>
+
 ![Figura 12: Configurar Segurança da Chave SSH](imagens/desabilitar_heranca.png)
 
 <p align="center"> Elaboração Bruna Brasil </p>
@@ -271,6 +294,8 @@ Após a criação da instância EC2, foi necessário configurar a segurança da 
 ### 12. Atualizar Instância EC2
 
 Após configurar a segurança da chave SSH, procedemos com a atualização da instância EC2 para garantir que todos os pacotes e softwares estivessem atualizados.
+
+<p align="center"> Figura 13: Atualizar Instância EC2 </p>
 
 ![Figura 13: Atualizar Instância EC2](imagens/update_instancia.png)
 
@@ -280,6 +305,8 @@ Após configurar a segurança da chave SSH, procedemos com a atualização da in
 
 Um passo crucial foi a instalação do npm para gerenciar as dependências do projeto e facilitar o desenvolvimento da aplicação/API.
 
+<p align="center"> Figura 14: Instalar npm </p>
+
 ![Figura 14: Instalar npm](imagens/instalacao_npm.png)
 
 <p align="center"> Elaboração Bruna Brasil </p>
@@ -287,6 +314,8 @@ Um passo crucial foi a instalação do npm para gerenciar as dependências do pr
 ### 14. Instalar Node.js
 
 Além do npm, também instalamos o Node.js, que é uma plataforma de execução de código JavaScript que permite executar aplicações do lado do servidor.
+
+<p align="center"> Figura 15: Instalar Node.js </p>
 
 ![Figura 15: Instalar Node.js](imagens/instalacao_node.png)
 
@@ -299,15 +328,19 @@ Esses passos foram essenciais para preparar o ambiente de desenvolvimento e conf
 
 Após concluir a configuração da instância EC2 e preparar o ambiente de desenvolvimento, procedemos com o clonagem do repositório do GitHub contendo o código-fonte da nossa aplicação/API. Em seguida, instalamos as dependências do projeto e utilizamos a biblioteca PM2 para realizar o deploy da API. Abaixo, detalhamos cada etapa do processo de implementação:
 
+<p align="center"> Figura 13: Clonagem do Repositório no GitHub </p>
+
 ![Figura 13: Clonagem do Repositório no GitHub](imagens/git_clone.png)
 
-<p align="center"> Figura 13: Clonagem do Repositório no GitHub </p>
+<p align="center"> Elaboração Bruna Brasil </p>
 
 Após configurar a instância e preparar o ambiente, procedemos com a clonagem do repositório contendo o código-fonte da aplicação/API do GitHub. Isso nos permitiu ter acesso ao código atualizado e pronto para implantação.
 
+<p align="center"> Figura 14: Instalação das Dependências do Projeto </p>
+
 ![Figura 14: Instalação das Dependências do Projeto](imagens/npm_install.png)
 
-<p align="center"> Figura 14: Instalação das Dependências do Projeto </p>
+<p align="center"> Elaboração Bruna Brasil </p>
 
 Em seguida, acessamos a pasta do projeto e instalamos todas as dependências necessárias para o correto funcionamento da aplicação/API. Isso incluiu bibliotecas, frameworks e outros pacotes necessários para o desenvolvimento e execução do projeto.
 
@@ -315,11 +348,16 @@ Em seguida, acessamos a pasta do projeto e instalamos todas as dependências nec
 
 <p align="center"> Figura 15: Utilização do PM2 para Deploy da API </p>
 
+<p align="center"> Elaboração Bruna Brasil </p>
+
 Utilizamos a biblioteca PM2 para realizar o deploy da API, garantindo um processo de implantação simplificado e eficiente. Configuramos o PM2 para iniciar o arquivo principal da aplicação/API e monitoramos o seu funcionamento.
 
 ![Figura 16: Inicialização da Aplicação/API com PM2](imagens/start_pm2.png)
 
 <p align="center"> Figura 16: Inicialização da Aplicação/API com PM2 </p>
+
+<p align="center"> Elaboração Bruna Brasil </p>
+
 
 Por fim, iniciamos a aplicação/API utilizando o PM2 e verificamos que ela estava ativa e funcionando corretamente. Isso foi confirmado pela mensagem de sucesso exibida pelo PM2 após a inicialização da aplicação/API.
 
