@@ -27,19 +27,19 @@
 - [7. Conclusão](#conclusao)
 - [8. Referências](#referencias)
 
-## 1. Introdução
+## 1. Introdução (Semana 3)
 
 Bem-vindo ao projeto que visa explorar uma abordagem criativa e desafiadora para o desenvolvimento de uma aplicação web interativa. Neste contexto, nossa jornada se concentra em criar uma página web com funcionalidades aparentemente simples - adicionar e remover fichas - mas com um toque intrigante: o comportamento dessas operações é manipulado de forma a garantir que o número de fichas apenas aumente.
 
-## 2. Ideia
+## 2. Ideia (Semana 1 e Semana 3)
 
-A ideia central por trás deste projeto é oferecer uma experiência única aos usuários ao desafiar suas expectativas e percepções comuns sobre interações básicas em uma página web. Ao apresentar botões aparentemente convencionais para adicionar, remover e reiniciar fichas, pretendemos criar uma dinâmica envolvente onde o número de fichas continua a aumentar independentemente das ações realizadas pelo usuário.
+A ideia central por trás deste projeto é oferecer uma experiência única aos usuários ao desafiar suas expectativas e percepções comuns sobre interações básicas em uma página web. Dessa forma, temos uma aplicação web que apresenta botões aparentemente convencionais para adicionar, remover e reiniciar fichas de tarefas, mas a dinâmica envolve uma piada na qual o número de fichas de tarefas continua a aumentar independentemente das ações realizadas pelo usuário.
 
 Essa abordagem não apenas demonstra conceitos avançados de manipulação de interface e comportamento de usuário, mas também convida os participantes a refletir sobre a natureza da interatividade digital e explorar novas perspectivas sobre o que é possível em termos de experiência do usuário na web.
 
 Ao longo deste projeto, mergulharemos na implementação detalhada dessa ideia, explorando técnicas de programação e design web para criar uma aplicação que seja não apenas funcional, mas também cativante e surpreendente para quem a utiliza.
 
-## 3. Propósitos dos commits
+## 3. Propósitos dos commits (Semana 1)
 
 ### Main
 ####
@@ -169,7 +169,7 @@ Durante a realização deste projeto, foram utilizados os seguintes materiais e 
 
 Esses materiais foram essenciais para a criação, configuração e execução bem-sucedida da instância EC2 na AWS, bem como para o desenvolvimento e implantação da aplicação/API.
 
-## 5. Método
+## 5. Método (Semana 3)
 
 Para realizar o levantamento da API, foram necessários diversos passos. Abaixo, detalhamos cada etapa do processo:
 
@@ -234,7 +234,7 @@ Após clicar em "Executar Instância", foi exibida uma tela de carregamento enqu
 
 <p align="center"> Elaboração Bruna Brasil </p>
 
-### 7. Instância Criada com Sucesso
+### 7. Instância Criada com Sucesso 
 
 A instância foi criada com sucesso e estava pronta para ser utilizada.
 
@@ -244,7 +244,7 @@ A instância foi criada com sucesso e estava pronta para ser utilizada.
 
 <p align="center"> Elaboração Bruna Brasil </p>
 
-### 8. Detalhes da Instância
+### 8. Detalhes da Instância 
 
 Visualizamos os detalhes da instância, incluindo seu ID, endereço IP público e privado.
 
@@ -320,7 +320,7 @@ Além do npm, também instalamos o Node.js, que é uma plataforma de execução 
 Esses passos foram essenciais para preparar o ambiente de desenvolvimento e configurar a instância EC2 para execução da aplicação/API. Com essas etapas concluídas, estávamos prontos para prosseguir com o desenvolvimento e implantação da nossa aplicação.
 
 
-## 6. Resultados🥇
+## 6. Resultados🥇 (Semana 3)
 
 Após concluir a configuração da instância EC2 e preparar o ambiente de desenvolvimento, procedemos com o clonagem do repositório do GitHub contendo o código-fonte da nossa aplicação/API. Em seguida, instalamos as dependências do projeto e utilizamos a biblioteca PM2 para realizar o deploy da API. Abaixo, detalhamos cada etapa do processo de implementação:
 
@@ -359,7 +359,7 @@ Por fim, iniciamos a aplicação/API utilizando o PM2 e verificamos que ela esta
 
 Essas etapas foram cruciais para a implementação bem-sucedida da nossa aplicação/API na instância EC2 da AWS. Com isso, nossa aplicação estava pronta para ser acessada e utilizada conforme necessário.
 
-## 7. Conclusão
+## 7. Conclusão (Semana 3)
 
 Em conclusão, a realização deste projeto representou um passo significativo no desenvolvimento e implantação de uma aplicação/API na nuvem utilizando a AWS (Amazon Web Services). Através do processo detalhado de criação e configuração de uma instância EC2, bem como da preparação do ambiente de desenvolvimento e implantação da nossa aplicação, pudemos adquirir conhecimentos valiosos sobre a infraestrutura em nuvem e suas aplicações práticas.
 
@@ -371,8 +371,8 @@ Em suma, este projeto não apenas nos permitiu aplicar habilidades técnicas adq
 
 ## 8. Referências
 
-### https://github.com/john-smilga/javascript-basic-projects/blob/master/02-counter/final/index.html
+### https://github.com/john-smilga/javascript-basic-projects/blob/master/02-counter/final/index.html (Semana 1)
 
-### https://awsacademy.instructure.com/courses/72994/modules/items/6536779
+### https://awsacademy.instructure.com/courses/72994/modules/items/6536779 (Semana 3)
 
-### https://www.youtube.com/watch?v=u-o7cqzK6u8
+### https://www.youtube.com/watch?v=u-o7cqzK6u8 (Semana 3)
